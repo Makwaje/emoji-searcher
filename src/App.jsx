@@ -1,7 +1,8 @@
 import { useState } from "react";
+import emoji from "./emoji.json";
 //
 
-const data = require("./emoji.json");
+const data = emoji;
 const emojiObj = Object.values(data);
 //
 
@@ -54,7 +55,7 @@ function List({ emoji }) {
   return (
     <div className="content">
       <ul>
-        <ListItem emoji={emoji} />
+        <ListItem emoji={emoji} key={emoji.description} />
       </ul>
     </div>
   );
