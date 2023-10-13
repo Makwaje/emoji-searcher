@@ -1,4 +1,3 @@
-# The Wild Oasis
+# Emoji Searcher
 
-Side Project in Jonas Schmedtmann's Ultimate React Course.
-Built with React, Tailwind css, and RTK (Redux ToolKit)
+Side Mini Project built using React (vite)
